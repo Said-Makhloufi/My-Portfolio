@@ -1,0 +1,687 @@
+@media screen and (min-width: 1024px){
+
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+main{
+     background-color:white;
+    
+}
+header{
+    
+     background-color:#262626 ;
+     height: auto;
+     
+}
+.home {
+    background: url('backgroundcode.jpg') ; 
+    background-size:1800px; 
+    font-size: 22px;
+    height: 750px;
+}
+.home h1 {
+    text-align: center;
+    position: relative;
+    top: 140px;
+    font-size: 65px;
+
+}
+.home h1 p {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 50px;
+
+}
+.fa-chevron-down{
+    padding-top: 17%;
+    padding-left: 50%;
+    font-size: 70px;
+    color: yellow;
+}
+.info  {
+    
+    border: 1px solid black;
+    
+}
+h1 {
+    text-align: center;
+    color: white;;
+    
+}
+h2  {
+    text-align: center;
+    color: #262626;
+    font-size: 30px;
+}
+h3 {
+    padding-left: 15px;
+
+}
+p,li {
+    padding-left: 15px;
+}
+hr {
+    height: 5px;
+    width: 300px;
+    border: 1px solid #FFBB33;
+    position: relative;
+    background-color: #FFBB33;
+    margin-top: 15px; ;
+    margin-bottom: 15px ;  
+    
+}
+.hrpetit {
+    height: 5px;
+    width: 300px;
+    border: 1px solid #FFBB33;
+    position: relative;
+    background-color: #FFBB33;
+    margin-top: 15px; ;
+    margin-bottom: 15px ;   
+    position: relative;
+    left: -32.5%; 
+}
+.hrpetit1 {
+    height: 5px;
+    width: 300px;
+    border: 1px solid #FFBB33;
+    position: relative;
+    background-color: #FFBB33;
+    margin-top: 15px; ;
+    margin-bottom: 15px ;   
+    position: relative;
+    left: -26.5%; 
+}
+.divpourflex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ZonedePhoto{
+    background: url('backgroundcode.jpg') ; 
+    background-size:1000px; 
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+    padding: 1px;
+}
+
+.ZonedePhoto h3{
+   color: white;
+   text-decoration: none;
+   height: auto;
+   padding-top: 25px;
+}
+.Zonedelanguage{
+   background-color: #212529;
+   padding-bottom: 50px;
+   margin-right: -8px;
+   margin-left: -8px;
+
+}
+.ZoneLangue {
+   background-color: #212529;
+   padding-bottom: 50px;
+   margin-right: -8px;
+   margin-left: -8px;
+}
+.ZoneLangue span {
+   color: white;
+}
+.Zonedelanguage h3 , .langues4 {
+   text-align: center;
+
+}
+
+.Zonedelanguage p {
+   font-size: 18px;
+   position: relative;
+   top: 0px;
+}
+.Java{
+    font-size: 80px;
+    padding-right: 50% ;
+    padding-left: 50%;
+}
+
+
+.stardejava p{
+    color: white;
+}
+.stardejava i {
+    position: relative;
+    top: 10px;
+    left: 50%;
+        
+}
+.staryellow {
+    color: yellow;
+
+}
+.starwhite{
+    color: white;
+}
+
+ .stardePython i {
+    position: relative;
+    top: 18px;
+    left: 50%;
+} 
+.stardePython p {
+    color: white;
+}
+
+.Python {
+    font-size: 80px;
+    padding-right: 50% ;
+    padding-left: 50%;
+}
+.Html {
+    font-size: 80px;
+    padding-right: 50% ;
+    padding-left: 50%;
+}
+.Css{
+    font-size: 80px;
+    padding-right: 50% ;
+    padding-left: 50%;
+}
+
+.stardeJs i  {
+    position: relative;
+    top: 18px;
+    left: 50%;
+}
+.stardeJs p{
+    color: white;
+}
+.Js {
+    
+    font-size: 80px;
+    padding-right: 50% ;
+    padding-left: 50%;
+} 
+    .ZoneLangue .barslangue .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ZoneLangue .barslangue span {
+        font-weight: 450px;
+        font-size: 30px;
+
+    }
+    .ZoneLangue   .line {
+        height: 5px;
+        width: 100%;
+        
+        background: white;
+        position: relative;
+    }
+    .ZoneLangue  .line::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Tamazight::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Arabe::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Francais::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .English::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 45%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+
+
+
+
+
+
+
+
+
+
+.Name{
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60rem ;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+}
+
+ul{
+    padding: 0;
+}
+.Menu {
+    display: inline-block;
+    padding: 0 1.25rem;
+    
+}
+p {
+    color: black;
+}
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-toggle{
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+.open {
+    height: 100vh;
+    color: white;
+ }
+.hidden{
+    display: none;
+ } 
+.colorY {
+    color:yellow;
+ }
+ nav a.Active , a:hover{
+    text-transform: uppercase;
+    color:yellow;
+ }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family:Arial, Helvetica, sans-serif ;
+    }
+    h2 , h1{
+        color: #dcdcdc;;
+    }
+    ul{
+        padding: 0;
+    }
+    .colorY {
+        color:yellow;
+     }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 60rem ;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+    .nav-toggle{
+        display: none;
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+    }
+    .open {
+        height: 100vh;
+        color: white;
+     }
+    .hidden{
+        display: none;
+     } 
+     .Menu a{
+        color: white;
+        text-decoration: none;
+    }
+    header {
+        background-color:#262626 ;
+        height: auto;
+        margin-right: -8px;
+        margin-left: -8px;
+        
+    }
+    .navIconcolor {
+        height:20px ;
+        width: 20px;
+        background-color: #FFBB33;
+    }
+
+    body {
+        background-color: white;
+        width: auto;    
+
+    }
+
+    main {
+        height:auto ;
+        background-color: white;
+        width: auto;
+        
+    }
+
+    footer {
+        background-color: #262626;
+        width: auto;  
+        padding: 2px;  
+        margin-top: 15px;
+        margin-right: -8px;
+        margin-left: -8px;
+        padding-bottom: 50px;
+    }
+    footer p {
+        color: white;
+       
+    }
+    .footersocial{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    .footericon{
+        margin: 20px;
+        height: 6em;
+        width: 6em;
+        
+        color: white;
+    }
+
+    hr {
+        height: 5px;
+        width: 300px;
+        border: 1px solid #FFBB33;
+        position: relative;
+        background-color: #FFBB33;
+        margin-top: 15px; ;
+        margin-bottom: 15px ;   
+    }
+
+    .hr1{
+        top: 20px; 
+    }
+
+    .home{   
+        background: url('backgroundcode.jpg') ; 
+         background-size:1000px; 
+         padding-top: 62px;
+
+         padding-bottom: 200px;
+        position:relative ;
+        top: 10px;  
+        color: #ffffff;
+        margin-right: -8px;
+        margin-left: -8px;
+     }
+     .fa-chevron-down{
+        padding-top: 50%;
+        padding-left: 45%;
+        font-size: 50px;
+        color: yellow;
+    }
+
+
+      nav a.Active , a:hover{
+        text-transform: uppercase;
+        color:yellow;
+     }
+
+     .info {
+      
+        position: relative;
+        margin-top: 50px; 
+        
+
+    }
+ 
+    .info h2     {
+        font-size: 35px;
+    }
+    .info h3 {
+        text-align: center;
+        text-decoration: underline;
+
+    }
+    
+
+    .info h2 ,h3,.sous-titres {
+        color: #262626;    
+    }
+
+    .ZonedePhoto{
+         background: url('backgroundcode.jpg') ; 
+         background-size:1000px; 
+         width: 100%;
+         /* border: 1px solid black; */
+         padding: 1px;
+    }
+
+    .ZonedePhoto h3{
+        color: white;
+        text-decoration: none;
+        height: auto;
+    }
+    .Zonedelanguage{
+        background-color: #212529;
+        padding-bottom: 50px;
+        margin-right: -8px;
+        margin-left: -8px;
+
+    }
+    .ZoneLangue {
+        background-color: #212529;
+        padding-bottom: 50px;
+        margin-right: -8px;
+        margin-left: -8px;
+    }
+    .ZoneLangue span {
+        color: white;
+    }
+    .Zonedelanguage h3 , .langues4 {
+        text-align: center;
+
+    }
+
+    .Zonedelanguage p {
+        font-size: 18px;
+    }
+    .stardejava {
+        display: flex;
+        justify-content: space-between;
+    }
+    .stardejava p{
+        color: white;
+    }
+    .stardejava i {
+        position: relative;
+        top: 18px;
+    }
+    .stardePython {
+        display: flex;
+        justify-content: space-between;
+    }
+    .stardePython i {
+        position: relative;
+        top: 18px;
+    }
+    .stardePython p {
+        color: white;
+    }
+    .Python {
+        margin-right: -17px;
+    }
+    .Html {
+        margin-right: 4px;
+    }
+    .Css{
+        margin-right: 12px;
+    }
+    .stardeJs  {
+        display: flex;
+        justify-content: space-between;
+        padding-right:0px ;
+    } 
+    .stardeJs i  {
+        position: relative;
+        top: 18px;
+    }
+    .stardeJs p{
+        color: white;
+    }
+    .Js {
+        margin-right: -40px;
+    }
+    .languagediv {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    .ZoneLangue .barslangue .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ZoneLangue .barslangue span {
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .ZoneLangue   .line {
+        height: 5px;
+        width: 100%;
+        background: white;
+        position: relative;
+    }
+    .ZoneLangue  .line::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Tamazight::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Arabe::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 80%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .Francais::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 40%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+    .ZoneLangue  .English::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 45%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background: crimson ;
+    }
+                
+    .staryellow {
+        color: yellow;
+
+    }
+    .starwhite{
+        color: white;
+    }
+    .Simage {
+        height: 5em; ;
+        width: 5em;
+    }
+    
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: 250ms height ease-in-out;
+    }
+
+    .Menu {
+        display: block;
+        text-align: center;
+        padding: 1.5rem 0 ;
+    };
+    .Menu a {
+        font-size: 1.4rem;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+    .SOFTWARE {
+        padding: 10px;
+        padding-bottom: 15px;
+    }
+    .SOFTWARE  h2 {
+        color: #262626;
+    }
+
+}
